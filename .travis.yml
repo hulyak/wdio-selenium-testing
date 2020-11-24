@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - "10.15.0"
+
+branches:
+  only:
+    - travis
+
+addons:
+  chrome: stable
+
+cache:
+  directories:
+    - node_modules
+
+before_script:
+  - "npm install --no-package-lock"
+
+script:
+  - npm test
