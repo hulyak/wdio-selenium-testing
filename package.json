@@ -10,7 +10,8 @@
     "mocha-report": "marge ./Results/wdio-ma-merged.json",
     "junit-report": "xunit-viewer --results=./reports/junit-results --output=/junit-results.html && open /junit-results.html",
     "testingbot": "./node_modules/.bin/wdio wdio.testingbot.conf.js",
-    "browserstack": "./node_modules/.bin/wdio wdio.browserstack.conf.js"
+    "browserstack": "./node_modules/.bin/wdio wdio.browserstack.conf.js",
+    "crossbrowser": "./node_modules/.bin/wdio wdio.crossbrowser.config.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@wdio/browserstack-service": "^6.8.0",
     "@wdio/cli": "^6.7.4",
     "@wdio/concise-reporter": "^6.8.1",
+    "@wdio/crossbrowsertesting-service": "^6.8.0",
     "@wdio/dot-reporter": "^6.8.1",
     "@wdio/junit-reporter": "^6.8.1",
     "@wdio/local-runner": "^6.7.3",
