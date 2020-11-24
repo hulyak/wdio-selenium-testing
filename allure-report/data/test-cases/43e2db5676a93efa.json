@@ -1,5 +1,5 @@
 {
-  "uid" : "b35bf4ebe673b1a6",
+  "uid" : "43e2db5676a93efa",
   "name" : "the second becomes active when click on fancy tab",
   "fullName" : "Tabs.the second becomes active when click on fancy tab",
   "historyId" : "ded4e124574e2e5e924982a2908c9099",
@@ -34,9 +34,9 @@
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "55465a07d5c09910",
+          "uid" : "758045944785e747",
           "name" : "Request",
-          "source" : "55465a07d5c09910.json",
+          "source" : "758045944785e747.json",
           "type" : "application/json",
           "size" : 65
         } ],
@@ -62,15 +62,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "4956c668d5c547ef",
+        "uid" : "e95a116e1e688fe3",
         "name" : "Request",
-        "source" : "4956c668d5c547ef.json",
+        "source" : "e95a116e1e688fe3.json",
         "type" : "application/json",
         "size" : 55
       }, {
-        "uid" : "182e792dddc6332d",
+        "uid" : "d2096b27bab31552",
         "name" : "Response",
-        "source" : "182e792dddc6332d.json",
+        "source" : "d2096b27bab31552.json",
         "type" : "application/json",
         "size" : 83
       } ],
@@ -104,9 +104,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "4fcd18c65e66c282",
+        "uid" : "c54f3bf00db67635",
         "name" : "Response",
-        "source" : "4fcd18c65e66c282.json",
+        "source" : "c54f3bf00db67635.json",
         "type" : "application/json",
         "size" : 17
       } ],
@@ -162,6 +162,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b35bf4ebe673b1a6.json",
+  "source" : "43e2db5676a93efa.json",
   "parameterValues" : [ "chrome-86.0.4240.198" ]
 }

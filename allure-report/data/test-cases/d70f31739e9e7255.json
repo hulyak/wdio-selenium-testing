@@ -1,12 +1,12 @@
 {
-  "uid" : "c6a94015e8b009bf",
-  "name" : "on page load the tooltip is not displayed",
-  "fullName" : "Tooltip.on page load the tooltip is not displayed",
-  "historyId" : "e7d25936396a310e5dad4a4ebc5b7332",
+  "uid" : "d70f31739e9e7255",
+  "name" : "shows the first tab content on page load",
+  "fullName" : "Tabs.shows the first tab content on page load",
+  "historyId" : "f776f2dfadb78ec4659715c6e2074329",
   "time" : {
-    "start" : 1606187467249,
-    "stop" : 1606187473060,
-    "duration" : 5811
+    "start" : 1606187473314,
+    "stop" : 1606187473809,
+    "duration" : 495
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,28 +17,28 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "\"before each\" hook for \"on page load the tooltip is not displayed\"",
+      "name" : "\"before each\" hook for \"shows the first tab content on page load\"",
       "time" : {
-        "start" : 1606187467249,
-        "stop" : 1606187472986,
-        "duration" : 5737
+        "start" : 1606187473314,
+        "stop" : 1606187473787,
+        "duration" : 473
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST /session/:sessionId/url",
         "time" : {
-          "start" : 1606187467252,
-          "stop" : 1606187472986,
-          "duration" : 5734
+          "start" : 1606187473314,
+          "stop" : 1606187473787,
+          "duration" : 473
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "679d2fff5848c364",
+          "uid" : "d578283fd3c93f46",
           "name" : "Request",
-          "source" : "679d2fff5848c364.json",
+          "source" : "d578283fd3c93f46.json",
           "type" : "application/json",
-          "size" : 68
+          "size" : 65
         } ],
         "parameters" : [ ],
         "stepsCount" : 0,
@@ -55,24 +55,24 @@
     }, {
       "name" : "POST /session/:sessionId/element",
       "time" : {
-        "start" : 1606187472988,
-        "stop" : 1606187473043,
-        "duration" : 55
+        "start" : 1606187473788,
+        "stop" : 1606187473799,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "d29ebb3e04fb120f",
+        "uid" : "b959d773a43c07b",
         "name" : "Request",
-        "source" : "d29ebb3e04fb120f.json",
+        "source" : "b959d773a43c07b.json",
         "type" : "application/json",
-        "size" : 62
+        "size" : 60
       }, {
-        "uid" : "d37f5e86803f5fab",
+        "uid" : "87136a84c6ef55a7",
         "name" : "Response",
-        "source" : "d37f5e86803f5fab.json",
+        "source" : "87136a84c6ef55a7.json",
         "type" : "application/json",
-        "size" : 1871
+        "size" : 83
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -80,26 +80,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "POST /session/:sessionId/element",
+      "name" : "POST /session/:sessionId/execute/sync",
       "time" : {
-        "start" : 1606187473048,
-        "stop" : 1606187473058,
-        "duration" : 10
+        "start" : 1606187473801,
+        "stop" : 1606187473809,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9be91a4a8843cc55",
+        "uid" : "d486fdbd8b40aa16",
         "name" : "Request",
-        "source" : "9be91a4a8843cc55.json",
+        "source" : "d486fdbd8b40aa16.json",
         "type" : "application/json",
-        "size" : 62
+        "size" : 5893
       }, {
-        "uid" : "2611ea62b6024007",
+        "uid" : "aa51b4272e206eb9",
         "name" : "Response",
-        "source" : "2611ea62b6024007.json",
+        "source" : "aa51b4272e206eb9.json",
         "type" : "application/json",
-        "size" : 1871
+        "size" : 4
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -123,19 +123,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-4"
+    "value" : "0-3"
   }, {
     "name" : "suite",
-    "value" : "Tooltip"
+    "value" : "Tabs"
   }, {
     "name" : "testClass",
-    "value" : "Tooltip"
+    "value" : "Tabs"
   }, {
     "name" : "testMethod",
-    "value" : "on page load the tooltip is not displayed"
+    "value" : "shows the first tab content on page load"
   }, {
     "name" : "package",
-    "value" : "Tooltip"
+    "value" : "Tabs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -153,6 +153,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6a94015e8b009bf.json",
+  "source" : "d70f31739e9e7255.json",
   "parameterValues" : [ "chrome-86.0.4240.198" ]
 }

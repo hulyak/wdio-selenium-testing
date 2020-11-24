@@ -1,65 +1,5 @@
 [ {
-  "uid" : "c6a94015e8b009bf",
-  "name" : "on page load the tooltip is not displayed",
-  "time" : {
-    "start" : 1606187467249,
-    "stop" : 1606187473060,
-    "duration" : 5811
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "55cfc5642b2f75ed",
-  "name" : "shows the first tab content on page load",
-  "time" : {
-    "start" : 1606187473314,
-    "stop" : 1606187473809,
-    "duration" : 495
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "56054fa26804b191",
-  "name" : "displays black header of the first tab",
-  "time" : {
-    "start" : 1606187473810,
-    "stop" : 1606187474350,
-    "duration" : 540
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23dfbf0362ffbb0b",
-  "name" : "renders the tooltip on button click",
-  "time" : {
-    "start" : 1606187473060,
-    "stop" : 1606187473651,
-    "duration" : 591
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8b6840ab7c8c0d30",
-  "name" : "should have the right title",
-  "time" : {
-    "start" : 1606187467355,
-    "stop" : 1606187471600,
-    "duration" : 4245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53f0938dfbe5c150",
-  "name" : "displays grey header of the third tab",
-  "time" : {
-    "start" : 1606187474790,
-    "stop" : 1606187475213,
-    "duration" : 423
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79a09f774c357c19",
+  "uid" : "9590f81c6d6b3b3",
   "name" : "renders the test inside the iframe",
   "time" : {
     "start" : 1606187467529,
@@ -69,7 +9,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4a22e2a3369075cc",
+  "uid" : "724c4c01fd525bc0",
+  "name" : "displays black header of the first tab",
+  "time" : {
+    "start" : 1606187473810,
+    "stop" : 1606187474350,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9010077e94061324",
   "name" : "Shows the first tab on page load",
   "time" : {
     "start" : 1606187467748,
@@ -79,7 +29,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "61a8df80d7490bae",
+  "uid" : "d70f31739e9e7255",
+  "name" : "shows the first tab content on page load",
+  "time" : {
+    "start" : 1606187473314,
+    "stop" : 1606187473809,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43e2db5676a93efa",
+  "name" : "the second becomes active when click on fancy tab",
+  "time" : {
+    "start" : 1606187475214,
+    "stop" : 1606187475716,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ba6dd89fcd379cc",
+  "name" : "renders the tooltip on button click",
+  "time" : {
+    "start" : 1606187473060,
+    "stop" : 1606187473651,
+    "duration" : 591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f34ab1478445c10a",
   "name" : "tooltip disappears when we press ESC",
   "time" : {
     "start" : 1606187473651,
@@ -89,7 +69,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "60f2b2a89926917c",
+  "uid" : "cfed299c0ed5a3e4",
+  "name" : "on page load the tooltip is not displayed",
+  "time" : {
+    "start" : 1606187467249,
+    "stop" : 1606187473060,
+    "duration" : 5811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a21131d31dfc4d1",
   "name" : "displays blue header of the second tab",
   "time" : {
     "start" : 1606187474350,
@@ -99,12 +89,22 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b35bf4ebe673b1a6",
-  "name" : "the second becomes active when click on fancy tab",
+  "uid" : "6cdfbe9ef5fefa17",
+  "name" : "should have the right title",
   "time" : {
-    "start" : 1606187475214,
-    "stop" : 1606187475716,
-    "duration" : 502
+    "start" : 1606187467355,
+    "stop" : 1606187471600,
+    "duration" : 4245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a663ba08075732a",
+  "name" : "displays grey header of the third tab",
+  "time" : {
+    "start" : 1606187474790,
+    "stop" : 1606187475213,
+    "duration" : 423
   },
   "status" : "passed",
   "severity" : "normal"

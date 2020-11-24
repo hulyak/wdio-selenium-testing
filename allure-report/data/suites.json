@@ -5,7 +5,7 @@
     "name" : "Tooltip",
     "children" : [ {
       "name" : "on page load the tooltip is not displayed",
-      "uid" : "c6a94015e8b009bf",
+      "uid" : "cfed299c0ed5a3e4",
       "parentUid" : "50b7103a63caacdc97957fd4b6be35c7",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "renders the tooltip on button click",
-      "uid" : "23dfbf0362ffbb0b",
+      "uid" : "9ba6dd89fcd379cc",
       "parentUid" : "50b7103a63caacdc97957fd4b6be35c7",
       "status" : "passed",
       "time" : {
@@ -31,7 +31,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "tooltip disappears when we press ESC",
-      "uid" : "61a8df80d7490bae",
+      "uid" : "f34ab1478445c10a",
       "parentUid" : "50b7103a63caacdc97957fd4b6be35c7",
       "status" : "passed",
       "time" : {
@@ -48,7 +48,7 @@
     "name" : "Google page",
     "children" : [ {
       "name" : "should have the right title",
-      "uid" : "8b6840ab7c8c0d30",
+      "uid" : "6cdfbe9ef5fefa17",
       "parentUid" : "ea5dd532c3501036ab81eaaddf327a75",
       "status" : "passed",
       "time" : {
@@ -65,7 +65,7 @@
     "name" : "iframe",
     "children" : [ {
       "name" : "renders the test inside the iframe",
-      "uid" : "79a09f774c357c19",
+      "uid" : "9590f81c6d6b3b3",
       "parentUid" : "a7bafb3ba27af04429d917388b521e6a",
       "status" : "passed",
       "time" : {
@@ -82,7 +82,7 @@
     "name" : "Tabs",
     "children" : [ {
       "name" : "Shows the first tab on page load",
-      "uid" : "4a22e2a3369075cc",
+      "uid" : "9010077e94061324",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {
@@ -95,7 +95,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "shows the first tab content on page load",
-      "uid" : "55cfc5642b2f75ed",
+      "uid" : "d70f31739e9e7255",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {
@@ -108,7 +108,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "displays black header of the first tab",
-      "uid" : "56054fa26804b191",
+      "uid" : "724c4c01fd525bc0",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {
@@ -121,7 +121,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "displays blue header of the second tab",
-      "uid" : "60f2b2a89926917c",
+      "uid" : "7a21131d31dfc4d1",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {
@@ -134,7 +134,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "displays grey header of the third tab",
-      "uid" : "53f0938dfbe5c150",
+      "uid" : "6a663ba08075732a",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {
@@ -147,7 +147,7 @@
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
       "name" : "the second becomes active when click on fancy tab",
-      "uid" : "b35bf4ebe673b1a6",
+      "uid" : "43e2db5676a93efa",
       "parentUid" : "56ba1e14309622211990743ba97f0b3a",
       "status" : "passed",
       "time" : {

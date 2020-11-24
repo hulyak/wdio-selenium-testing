@@ -2,122 +2,10 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "should have the right title",
-      "uid" : "8b6840ab7c8c0d30",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187467355,
-        "stop" : 1606187471600,
-        "duration" : 4245
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "displays grey header of the third tab",
-      "uid" : "53f0938dfbe5c150",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187474790,
-        "stop" : 1606187475213,
-        "duration" : 423
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
-      "name" : "shows the first tab content on page load",
-      "uid" : "55cfc5642b2f75ed",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187473314,
-        "stop" : 1606187473809,
-        "duration" : 495
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
-      "name" : "displays black header of the first tab",
-      "uid" : "56054fa26804b191",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187473810,
-        "stop" : 1606187474350,
-        "duration" : 540
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
-      "name" : "displays blue header of the second tab",
-      "uid" : "60f2b2a89926917c",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187474350,
-        "stop" : 1606187474789,
-        "duration" : 439
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
-      "name" : "Shows the first tab on page load",
-      "uid" : "4a22e2a3369075cc",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187467748,
-        "stop" : 1606187473314,
-        "duration" : 5566
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
-      "name" : "the second becomes active when click on fancy tab",
-      "uid" : "b35bf4ebe673b1a6",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187475214,
-        "stop" : 1606187475716,
-        "duration" : 502
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
     "name" : "0-4",
     "children" : [ {
-      "name" : "tooltip disappears when we press ESC",
-      "uid" : "61a8df80d7490bae",
-      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606187473651,
-        "stop" : 1606187474208,
-        "duration" : 557
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-86.0.4240.198" ]
-    }, {
       "name" : "on page load the tooltip is not displayed",
-      "uid" : "c6a94015e8b009bf",
+      "uid" : "cfed299c0ed5a3e4",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
@@ -129,8 +17,21 @@
       "newFailed" : false,
       "parameters" : [ "chrome-86.0.4240.198" ]
     }, {
+      "name" : "tooltip disappears when we press ESC",
+      "uid" : "f34ab1478445c10a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187473651,
+        "stop" : 1606187474208,
+        "duration" : 557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
       "name" : "renders the tooltip on button click",
-      "uid" : "23dfbf0362ffbb0b",
+      "uid" : "9ba6dd89fcd379cc",
       "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
       "status" : "passed",
       "time" : {
@@ -144,10 +45,109 @@
     } ],
     "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
   }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "displays blue header of the second tab",
+      "uid" : "7a21131d31dfc4d1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187474350,
+        "stop" : 1606187474789,
+        "duration" : 439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
+      "name" : "the second becomes active when click on fancy tab",
+      "uid" : "43e2db5676a93efa",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187475214,
+        "stop" : 1606187475716,
+        "duration" : 502
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
+      "name" : "Shows the first tab on page load",
+      "uid" : "9010077e94061324",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187467748,
+        "stop" : 1606187473314,
+        "duration" : 5566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
+      "name" : "shows the first tab content on page load",
+      "uid" : "d70f31739e9e7255",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187473314,
+        "stop" : 1606187473809,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
+      "name" : "displays black header of the first tab",
+      "uid" : "724c4c01fd525bc0",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187473810,
+        "stop" : 1606187474350,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    }, {
+      "name" : "displays grey header of the third tab",
+      "uid" : "6a663ba08075732a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187474790,
+        "stop" : 1606187475213,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should have the right title",
+      "uid" : "6cdfbe9ef5fefa17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606187467355,
+        "stop" : 1606187471600,
+        "duration" : 4245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.198" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
     "name" : "0-2",
     "children" : [ {
       "name" : "renders the test inside the iframe",
-      "uid" : "79a09f774c357c19",
+      "uid" : "9590f81c6d6b3b3",
       "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
