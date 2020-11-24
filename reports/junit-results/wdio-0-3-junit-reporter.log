@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Tabs" timestamp="2020-11-23T21:27:00" time="25.122" tests="6" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Tabs"/>
+      <property name="capabilities" value="chrome.85_0_4183_83.xp"/>
+      <property name="file" value="./specs/tabs.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="Shows_the_first_tab_on_page_load" time="11.658">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - Shows the first tab on page load","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - Shows the first tab on page load","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/elements - {"using":"css selector","value":"li.nav-item"}
+RESULT: {"using":"css selector","value":"li.nav-item"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/0/element - {"using":"css selector","value":"a"}
+RESULT: {"using":"css selector","value":"a"}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/3/attribute/class - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="shows_the_first_tab_content_on_page_load" time="2.449">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - shows the first tab content on page load","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - shows the first tab content on page load","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element - {"using":"css selector","value":"div.tab-pane > p"}
+RESULT: {"using":"css selector","value":"div.tab-pane > p"}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/4/displayed - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="displays_black_header_of_the_first_tab" time="3.088">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - displays black header of the first tab","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - displays black header of the first tab","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/elements - {"using":"css selector","value":"li.nav-item"}
+RESULT: {"using":"css selector","value":"li.nav-item"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/5/element - {"using":"css selector","value":"a"}
+RESULT: {"using":"css selector","value":"a"}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/8/css/color - {}
+RESULT: {}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/8/css/color - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="displays_blue_header_of_the_second_tab" time="2.727">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - displays blue header of the second tab","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - displays blue header of the second tab","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/elements - {"using":"css selector","value":"li.nav-item"}
+RESULT: {"using":"css selector","value":"li.nav-item"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/10/element - {"using":"css selector","value":"a"}
+RESULT: {"using":"css selector","value":"a"}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/12/css/color - {}
+RESULT: {}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/12/css/color - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="displays_grey_header_of_the_third_tab" time="2.705">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - displays grey header of the third tab","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - displays grey header of the third tab","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/elements - {"using":"css selector","value":"li.nav-item"}
+RESULT: {"using":"css selector","value":"li.nav-item"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/15/element - {"using":"css selector","value":"a"}
+RESULT: {"using":"css selector","value":"a"}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/16/css/color - {}
+RESULT: {}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/16/css/color - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tabs" name="the_second_becomes_active_when_click_on_fancy_tab" time="2.492">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/url - {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tabs"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/execute - {"script":"tb:test-context=Tabs - the second becomes active when click on fancy tab","args":[]}
+RESULT: {"script":"tb:test-context=Tabs - the second becomes active when click on fancy tab","args":[]}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element - {"using":"css selector","value":"a#fancy-tab"}
+RESULT: {"using":"css selector","value":"a#fancy-tab"}
+COMMAND: POST /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/17/click - {}
+RESULT: {}
+COMMAND: GET /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985/element/17/attribute/class - {}
+RESULT: {}
+COMMAND: DELETE /session/af75509af831-1a69a4918b5a-b6636c7d52b2-160619561512-19357985 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

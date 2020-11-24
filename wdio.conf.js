@@ -1,3 +1,4 @@
+require('dotenv').config()
 const video = require("wdio-video-reporter");
 const { TimelineService } = require("wdio-timeline-reporter/timeline-service");
 exports.config = {
@@ -113,7 +114,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver','selenium-standalone', ['TimelineService']],
+    services: ['chromedriver','selenium-standalone'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -135,14 +136,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: [[
-        'mochawesome', {
-            outputDir: './Results',
-            ouputFileFormat : function(opts){
-                return `results-${opts.cid}.${opts.capabilities.browserName}.json`
-            }
-        }
-    ]],
+    reporters: [ 'spec', 
+        ['junit' , { 
+            outputDir: './reports/junit-results'
+        }]
+    ],
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Google_page" timestamp="2020-11-23T21:27:00" time="3.28" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Google page"/>
+      <property name="capabilities" value="chrome.85_0_4183_83.xp"/>
+      <property name="file" value="./specs/basic.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_83.xp.Google_page" name="should_have_the_right_title" time="3.279">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/12786f75f986-3c73564235d1-aa829a1366f6-160619561553-95681109/execute - {"script":"tb:test-context=Google page - should have the right title","args":[]}
+RESULT: {"script":"tb:test-context=Google page - should have the right title","args":[]}
+COMMAND: POST /session/12786f75f986-3c73564235d1-aa829a1366f6-160619561553-95681109/url - {"url":"https://www.google.com/"}
+RESULT: {"url":"https://www.google.com/"}
+COMMAND: GET /session/12786f75f986-3c73564235d1-aa829a1366f6-160619561553-95681109/title - {}
+RESULT: {}
+COMMAND: DELETE /session/12786f75f986-3c73564235d1-aa829a1366f6-160619561553-95681109 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

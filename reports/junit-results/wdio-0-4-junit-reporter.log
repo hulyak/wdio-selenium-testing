@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Tooltip" timestamp="2020-11-23T21:27:23" time="21.106" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Tooltip"/>
+      <property name="capabilities" value="chrome.85_0_4183_83.xp"/>
+      <property name="file" value="./specs/tooltip.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_83.xp.Tooltip" name="on_page_load_the_tooltip_is_not_displayed" time="13.18">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/url - {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/execute - {"script":"tb:test-context=Tooltip - on page load the tooltip is not displayed","args":[]}
+RESULT: {"script":"tb:test-context=Tooltip - on page load the tooltip is not displayed","args":[]}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"ngb-tooltip-window"}
+RESULT: {"using":"css selector","value":"ngb-tooltip-window"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"ngb-tooltip-window"}
+RESULT: {"using":"css selector","value":"ngb-tooltip-window"}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tooltip" name="renders_the_tooltip_on_button_click" time="3.293">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/url - {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/execute - {"script":"tb:test-context=Tooltip - renders the tooltip on button click","args":[]}
+RESULT: {"script":"tb:test-context=Tooltip - renders the tooltip on button click","args":[]}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element/0/click - {}
+RESULT: {}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"ngb-tooltip-window"}
+RESULT: {"using":"css selector","value":"ngb-tooltip-window"}
+COMMAND: GET /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element/1/displayed - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.85_0_4183_83.xp.Tooltip" name="tooltip_disappears_when_we_press_ESC" time="4.631">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/url - {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+RESULT: {"url":"https://webdriverio-course-site.netlify.com/#/tooltip"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/execute - {"script":"tb:test-context=Tooltip - tooltip disappears when we press ESC","args":[]}
+RESULT: {"script":"tb:test-context=Tooltip - tooltip disappears when we press ESC","args":[]}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"ngb-tooltip-window"}
+RESULT: {"using":"css selector","value":"ngb-tooltip-window"}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element/2/click - {}
+RESULT: {}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/keys - {"value":[""]}
+RESULT: {"value":[""]}
+COMMAND: POST /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529/element - {"using":"css selector","value":"ngb-tooltip-window"}
+RESULT: {"using":"css selector","value":"ngb-tooltip-window"}
+COMMAND: DELETE /session/c60a3456dac0-cf53e62fb613-6f7dc477536e-160619563815-84972529 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
