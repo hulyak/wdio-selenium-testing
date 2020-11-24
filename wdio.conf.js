@@ -46,13 +46,18 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-    
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome',
+        browserName: 'chrome', 
+        'goog:chromeOptions': {
+            args: [
+                '--headless',
+                '--disable-gpu'
+            ]
+        },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -128,15 +133,19 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
-    //
+    reporters: ['concise', [
+        'allure', {
+            outputDir: './allure-results',
+            disableMochaHooks: true
+        }
+    ] 
+        ],
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000,
     },
- 
     //
     // =====
     // Hooks

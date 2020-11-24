@@ -13,4 +13,8 @@ npm test
 
 # to test specific files, example:
 npm test -- --spec=specs/tabs.spec.js`
+
+# generate allure report
+npm run allure-report
+
 ```

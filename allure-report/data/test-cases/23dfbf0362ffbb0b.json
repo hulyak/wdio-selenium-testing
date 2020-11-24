@@ -1,0 +1,200 @@
+{
+  "uid" : "23dfbf0362ffbb0b",
+  "name" : "renders the tooltip on button click",
+  "fullName" : "Tooltip.renders the tooltip on button click",
+  "historyId" : "f1202e18b776ce8bd2e31d08f33bc17c",
+  "time" : {
+    "start" : 1606187473060,
+    "stop" : 1606187473651,
+    "duration" : 591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for \"renders the tooltip on button click\"",
+      "time" : {
+        "start" : 1606187473060,
+        "stop" : 1606187473571,
+        "duration" : 511
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1606187473061,
+          "stop" : 1606187473571,
+          "duration" : 510
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b750bb4b890e727b",
+          "name" : "Request",
+          "source" : "b750bb4b890e727b.json",
+          "type" : "application/json",
+          "size" : 68
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1606187473571,
+        "stop" : 1606187473581,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96d974cf9a713a3b",
+        "name" : "Request",
+        "source" : "96d974cf9a713a3b.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "88ea28d1105a4f63",
+        "name" : "Response",
+        "source" : "88ea28d1105a4f63.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/30ecb6cd-4ab8-4034-9aea-a538b6dd4a47/click",
+      "time" : {
+        "start" : 1606187473583,
+        "stop" : 1606187473626,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1606187473627,
+        "stop" : 1606187473635,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d23eafe62dffbafc",
+        "name" : "Request",
+        "source" : "d23eafe62dffbafc.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "1352e10144dc24d2",
+        "name" : "Response",
+        "source" : "1352e10144dc24d2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1606187473637,
+        "stop" : 1606187473651,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6bf109e25e3c5f1",
+        "name" : "Request",
+        "source" : "d6bf109e25e3c5f1.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "11e92aa57d9ed4d0",
+        "name" : "Response",
+        "source" : "11e92aa57d9ed4d0.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Tooltip"
+  }, {
+    "name" : "testClass",
+    "value" : "Tooltip"
+  }, {
+    "name" : "testMethod",
+    "value" : "renders the tooltip on button click"
+  }, {
+    "name" : "package",
+    "value" : "Tooltip"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.198"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23dfbf0362ffbb0b.json",
+  "parameterValues" : [ "chrome-86.0.4240.198" ]
+}

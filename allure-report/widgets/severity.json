@@ -1,0 +1,111 @@
+[ {
+  "uid" : "c6a94015e8b009bf",
+  "name" : "on page load the tooltip is not displayed",
+  "time" : {
+    "start" : 1606187467249,
+    "stop" : 1606187473060,
+    "duration" : 5811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55cfc5642b2f75ed",
+  "name" : "shows the first tab content on page load",
+  "time" : {
+    "start" : 1606187473314,
+    "stop" : 1606187473809,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56054fa26804b191",
+  "name" : "displays black header of the first tab",
+  "time" : {
+    "start" : 1606187473810,
+    "stop" : 1606187474350,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23dfbf0362ffbb0b",
+  "name" : "renders the tooltip on button click",
+  "time" : {
+    "start" : 1606187473060,
+    "stop" : 1606187473651,
+    "duration" : 591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6840ab7c8c0d30",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1606187467355,
+    "stop" : 1606187471600,
+    "duration" : 4245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53f0938dfbe5c150",
+  "name" : "displays grey header of the third tab",
+  "time" : {
+    "start" : 1606187474790,
+    "stop" : 1606187475213,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79a09f774c357c19",
+  "name" : "renders the test inside the iframe",
+  "time" : {
+    "start" : 1606187467529,
+    "stop" : 1606187473095,
+    "duration" : 5566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a22e2a3369075cc",
+  "name" : "Shows the first tab on page load",
+  "time" : {
+    "start" : 1606187467748,
+    "stop" : 1606187473314,
+    "duration" : 5566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61a8df80d7490bae",
+  "name" : "tooltip disappears when we press ESC",
+  "time" : {
+    "start" : 1606187473651,
+    "stop" : 1606187474208,
+    "duration" : 557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60f2b2a89926917c",
+  "name" : "displays blue header of the second tab",
+  "time" : {
+    "start" : 1606187474350,
+    "stop" : 1606187474789,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b35bf4ebe673b1a6",
+  "name" : "the second becomes active when click on fancy tab",
+  "time" : {
+    "start" : 1606187475214,
+    "stop" : 1606187475716,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

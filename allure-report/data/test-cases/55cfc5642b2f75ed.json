@@ -1,0 +1,158 @@
+{
+  "uid" : "55cfc5642b2f75ed",
+  "name" : "shows the first tab content on page load",
+  "fullName" : "Tabs.shows the first tab content on page load",
+  "historyId" : "f776f2dfadb78ec4659715c6e2074329",
+  "time" : {
+    "start" : 1606187473314,
+    "stop" : 1606187473809,
+    "duration" : 495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for \"shows the first tab content on page load\"",
+      "time" : {
+        "start" : 1606187473314,
+        "stop" : 1606187473787,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1606187473314,
+          "stop" : 1606187473787,
+          "duration" : 473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e15ad12596a79d0c",
+          "name" : "Request",
+          "source" : "e15ad12596a79d0c.json",
+          "type" : "application/json",
+          "size" : 65
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1606187473788,
+        "stop" : 1606187473799,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbfd8a13e1d23e2",
+        "name" : "Request",
+        "source" : "dbfd8a13e1d23e2.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "1ecd4d394a3dc49d",
+        "name" : "Response",
+        "source" : "1ecd4d394a3dc49d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1606187473801,
+        "stop" : 1606187473809,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "da18c2fe8c669d2b",
+        "name" : "Request",
+        "source" : "da18c2fe8c669d2b.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "46f1c701b3cfbd5d",
+        "name" : "Response",
+        "source" : "46f1c701b3cfbd5d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Tabs"
+  }, {
+    "name" : "testClass",
+    "value" : "Tabs"
+  }, {
+    "name" : "testMethod",
+    "value" : "shows the first tab content on page load"
+  }, {
+    "name" : "package",
+    "value" : "Tabs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.198"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55cfc5642b2f75ed.json",
+  "parameterValues" : [ "chrome-86.0.4240.198" ]
+}

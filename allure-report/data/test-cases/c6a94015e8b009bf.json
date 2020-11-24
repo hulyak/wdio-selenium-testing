@@ -1,0 +1,158 @@
+{
+  "uid" : "c6a94015e8b009bf",
+  "name" : "on page load the tooltip is not displayed",
+  "fullName" : "Tooltip.on page load the tooltip is not displayed",
+  "historyId" : "e7d25936396a310e5dad4a4ebc5b7332",
+  "time" : {
+    "start" : 1606187467249,
+    "stop" : 1606187473060,
+    "duration" : 5811
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for \"on page load the tooltip is not displayed\"",
+      "time" : {
+        "start" : 1606187467249,
+        "stop" : 1606187472986,
+        "duration" : 5737
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1606187467252,
+          "stop" : 1606187472986,
+          "duration" : 5734
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "679d2fff5848c364",
+          "name" : "Request",
+          "source" : "679d2fff5848c364.json",
+          "type" : "application/json",
+          "size" : 68
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1606187472988,
+        "stop" : 1606187473043,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d29ebb3e04fb120f",
+        "name" : "Request",
+        "source" : "d29ebb3e04fb120f.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d37f5e86803f5fab",
+        "name" : "Response",
+        "source" : "d37f5e86803f5fab.json",
+        "type" : "application/json",
+        "size" : 1871
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1606187473048,
+        "stop" : 1606187473058,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9be91a4a8843cc55",
+        "name" : "Request",
+        "source" : "9be91a4a8843cc55.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "2611ea62b6024007",
+        "name" : "Response",
+        "source" : "2611ea62b6024007.json",
+        "type" : "application/json",
+        "size" : 1871
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Tooltip"
+  }, {
+    "name" : "testClass",
+    "value" : "Tooltip"
+  }, {
+    "name" : "testMethod",
+    "value" : "on page load the tooltip is not displayed"
+  }, {
+    "name" : "package",
+    "value" : "Tooltip"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.198"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6a94015e8b009bf.json",
+  "parameterValues" : [ "chrome-86.0.4240.198" ]
+}
