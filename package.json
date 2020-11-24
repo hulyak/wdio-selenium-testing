@@ -23,6 +23,7 @@
     "chromedriver": "^86.0.0",
     "wdio-chromedriver-service": "^6.0.4",
     "wdio-json-reporter": "^2.0.0",
+    "wdio-timeline-reporter": "^5.1.4",
     "wdio-video-reporter": "^3.1.1",
     "webdriverio": "^6.7.3"
   },
