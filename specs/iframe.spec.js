@@ -9,7 +9,7 @@ describe("iframe", () => {
         btn.click();
         // https://webdriver.io/docs/api/webdriver.html#switchtoframe
         browser.switchToFrame(0); // enters in the iframe element
-        console.log(header.getText());
+        // console.log(header.getText());
         expect(header.getText()).to.equal("From parent to iframe");
     })
 })

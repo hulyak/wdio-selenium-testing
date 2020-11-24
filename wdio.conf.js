@@ -135,15 +135,14 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: [
-        [
-        'timeline', {
-            outputDir: './timeline-reporter',
-            fileName: 'report.html',
-            screenshotStrategy: 'before:click'
+    reporters: [[
+        'mochawesome', {
+            outputDir: './Results',
+            ouputFileFormat : function(opts){
+                return `results-${opts.cid}.${opts.capabilities.browserName}.json`
+            }
         }
-    ]
-],
+    ]],
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
@@ -274,8 +273,10 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    onComplete: function (exitCode, config, capabilities, results) {
+        const mergeResults = require('wdio-mochawesome-reporter/mergeResults');
+        mergeResults('./Results', "results-*")
+    },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session
