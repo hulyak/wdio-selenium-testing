@@ -1,5 +1,3 @@
-const { expect } = require("chai");
-
 describe("Carousel", () => {
     let images = [
         {
@@ -19,6 +17,13 @@ describe("Carousel", () => {
     beforeEach(() => {
         browser.url("./#/carousel");
     });
+     // custom command
+     browser.addCommand("getActiveSlide", (carouselElements) =>{
+        const index = carouselElements.findIndex(element => {
+            return (element.getAttribute("class").includes("active") === true);
+        })
+        return index;
+    })
 
     it("should count the number of slides in carousel", () => {
         // get the carousel pic divs
@@ -45,9 +50,23 @@ describe("Carousel", () => {
     it("renders the next slide on next click", () => {
         let nextClick = browser.$("a.carousel-control-next");
         let carouselElements = browser.$$("div.carousel-item");
-        let currentActiveSlide = carouselElements.findIndex(element => {
-            return (element.getAttribute("class").includes("active") === true);
-        })
-        console.log(currentActiveSlide) // 0 active slide index
+        // use custom command
+        let currentActiveSlide = browser.getActiveSlide(carouselElements)
+        // console.log(currentActiveSlide); // 0 active slide index
+        nextClick.click(); // move to next slide
+        let newActiveSlide = browser.getActiveSlide(carouselElements);
+        expect(newActiveSlide).to.equal(currentActiveSlide + 1);
+    });
+
+    it("renders the previous slide on prev click", () => {
+        let prevClick = browser.$("a.carousel-control-prev");
+        let carouselElements = browser.$$("div.carousel-item");
+        // use custom command
+        let currentActiveSlide = browser.getActiveSlide(carouselElements)
+        // console.log(currentActiveSlide); // 0 active slide index
+        prevClick.click(); // move to next slide
+        let newActiveSlide = browser.getActiveSlide(carouselElements);
+        expect(newActiveSlide).to.equal(currentActiveSlide - 1);
     })
 })
+
